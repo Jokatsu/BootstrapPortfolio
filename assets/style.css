@@ -1,0 +1,86 @@
+html{
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height:100%;
+}
+
+nav{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar{
+   max-width:100%;
+}
+
+.Pcontentbox{
+    padding-bottom:50px;
+
+}
+
+.submitp{
+    padding-bottom:40px;
+
+    }
+
+.page-header{
+    font-weight:900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:10px;
+    margin-bottom:-15px;
+    color:#4aaaa5;
+}
+
+#prof{
+    padding-bottom:30px;
+}
+body{
+    background-image: url(images/street.jpg);
+    background-size:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 960px;
+}
+}
+
+.container{
+    box-sizing:border-box;
+    background-color:#fff;
+    margin-top:40px;
+    padding:40px -30px 40px 15px;
+}
+
+p{
+    margin-left:20px;
+}
+
+.img-fluid{
+    margin-bottom:20px;
+}
+
+/* Footer */
+.footer{
+    position:absolute;
+    bottom:0;
+    background-color:#666;
+    width:100%;
+    padding:7px 0px 4px;
+    z-index:3;
+}
+#layerunder{
+    z-index:0;
+    position:absolute;
+    bottom:0;
+    background-color:#4aaaa5;
+    width:100%;
+    padding:40px 0px 15px;
+}
+/* Don't know how to change text opacity */
+#copyright{
+ color: rgba(0, 0, 0, 0.5);
+ text-align:center;
+}
